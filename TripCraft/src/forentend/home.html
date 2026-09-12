@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TripCraft</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@200..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-logo">TripCraft</div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="destinations.html" class="active" id="destlink">Destinations</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="nav-auth" id="nav-auth">
+      <!-- filled by navbar.js -->
+      <a href="signup.html">Log In</a>
+      <a href="signup.html" class="btn-signup">Sign up</a>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <p class="hero-subtitle">EXPLORE INDIA LIKE NEVER BEFORE</p>
+
+        <h1>Where Do You Want To Go?</h1>
+
+        <p class="hero-description">
+          Discover beautiful destinations, hidden places, local food,
+          adventures and everything you need for your next journey.
+        </p>
+
+
+        <!-- Search Bar -->
+        <div class="search-container" id="searchbar">
+
+          <input type="text" id="destination-search" placeholder="Search a city or destination..." autocomplete="off">
+          <div id="searchdropdown" class="active">
+            <!-- <div class="lists">Place Not found..</div> -->
+          </div>
+          <button id="search-btn">
+            Search
+          </button>
+
+        </div>
+
+
+        <!-- Quick Destination Buttons -->
+        <div class="quick-destinations">
+
+          <p>Popular destinations</p>
+
+          <div class="destination-buttons">
+
+            <button class="quick-btn" id="quickbtn1">Manali</button>
+            <button class="quick-btn" id="quickbtn2">Goa</button>
+            <button class="quick-btn" id="quickbtn3">Jaipur</button>
+            <button class="quick-btn" id="quickbtn4">Munnar</button>
+            <button class="quick-btn" id="quickbtn5">Leh-Ladakh</button>
+
+          </div>
+
+        </div>
+
+
+        <!-- Explore Button -->
+        <div class="explore-section">
+
+          <a href="destinations.html" class="explore-btn">
+            Explore All Destinations →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Features Section -->
+    <section class="features">
+
+      <div class="feature">
+
+        <div class="feature-icon"></div>
+
+        <h3>Discover Places</h3>
+
+        <p>
+          Find beautiful destinations and hidden gems across India.
+        </p>
+
+      </div>
+
+
+      <div class="feature">
+
+        <div class="feature-icon"></div>
+
+        <h3>Local Experiences</h3>
+
+        <p>
+          Explore local food, culture and unique experiences.
+        </p>
+
+      </div>
+
+
+      <div class="feature">
+
+        <div class="feature-icon"></div>
+
+        <h3>Plan Your Trip</h3>
+
+        <p>
+          Get useful information about budget, travel and activities.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script type="module" src="js/home.js"></script>
+  <script src="js/navbar.js"></script>
+
+</body>
+
+</html>

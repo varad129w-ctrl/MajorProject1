@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/signupbutton.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Chelsea+Market&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>SignUp-TripCraft</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- PAGE 1 : SIGNUP FORM + INTRO PANEL -->
+        <div class="onepage">
+            <div class="createaccount">
+                <h1 class="heading">Create Account</h1>
+                <div class="connectors">
+                    <img src="imgs/google.svg" alt="google">
+                    <img src="imgs/facebook.svg" alt="facebook">
+                    <img src="imgs/emails.svg" alt="email">
+                    <img src="imgs/github.svg" alt="github">
+                </div>
+                <p class="headline">or use <b>Email</b> to create an account :</p>
+                <form class="form" id="signupform">
+                    <div class="forminputs">
+                        <input type="text" id="signupname" name="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="forminputs">
+                        <input type="email" id="signupemail" name="email" placeholder="Enter Your Email Id">
+                    </div>
+                    <div class="forminputs">
+                        <input type="password" id="signuppassword" name="password" placeholder="Enter Your Password">
+                    </div>
+                    <button class="btn" id="signupbutton" type="submit">SIGN UP</button>
+                </form>
+            </div>
+            <div class="intropage">
+                <h1>Hello, Friend!</h1>
+                <p>Create an account by simply entering your <b>Name</b>, <b>Email</b>, <b>Password</b> :</p>
+                <button class="btn" id="signintoggle" type="button">SIGN IN</button>
+            </div>
+        </div>
+
+        <!-- PAGE 2 : LOGIN FORM + WELCOME PANEL -->
+        <div class="secondpage">
+            <div class="welcomepage">
+                <h1>Welcome Back!</h1>
+                <p>Sign in to your account by entering your <b>Email</b> and <b>Password</b> :</p>
+                <button class="btn" id="signuptoggle" type="button">SIGN UP</button>
+            </div>
+            <div class="loginaccount">
+                <h1 class="heading">Sign In</h1>
+                <div class="connectors">
+                    <img src="imgs/google.svg" alt="google">
+                    <img src="imgs/facebook.svg" alt="facebook">
+                    <img src="imgs/emails.svg" alt="email">
+                    <img src="imgs/github.svg" alt="github">
+                </div>
+                <p class="headline">or enter your <b>Email</b> and <b>Password</b> to login :</p>
+                <form class="form" id="loginform">
+                    <div class="forminputs" >
+                        <input type="email" id="loginemail" name="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="forminputs">
+                        <input type="password" id="loginpassword" name="password" placeholder="Enter Your Password">
+                    </div>
+                    <a href="">Forgot your password?</a>
+                    <button class="btn" id="loginbutton" type="submit">SIGN IN</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

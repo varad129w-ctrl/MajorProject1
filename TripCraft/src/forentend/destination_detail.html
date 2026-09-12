@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destination Detail — TripCraft</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Chelsea+Market&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/destination_detail.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">TripCraft</div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="destinations.html" class="active" id="destlink">Destinations</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="nav-auth">
+      <!-- <a href="login.html">Log in</a>
+      <a href="signup.html" class="btn-signup">Sign up</a> -->
+    </div>
+  </nav>
+
+  <main class="detail-page" id="detail-container">
+    <!-- Filled dynamically by destination-detail.js -->
+    <!-- <section class="detail-top">
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Manali" class="detail-img">
+      <div class="detail-info">
+        <p class="card-region">Himachal Pradesh</p>
+        <h1>Manali</h1>
+        <p class="detail-description">A hill station tucked in the Himalayas, known for snow-capped peaks, pine forests,
+          and adventure sports like paragliding and river rafting.</p>
+        <div class="detail-meta">
+          <div class="meta-item">
+            <span class="meta-label">Best time to visit</span>
+            <span class="meta-value">October to February</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Weather</span>
+            <span class="meta-value">Cold, -5°C to 15°C</span>
+          </div>
+        </div>
+        <div class="detail-tags">
+          <span class="tag-pill">hill-station</span>
+          <span class="tag-pill">adventure</span>
+          <span class="tag-pill">snow</span>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="detail-below">
+      <h2>Popular Places</h2>
+      <p class="placeholder-text">Places for this destination will load here once the Places API is built.</p>
+    </section>
+
+    <section class="detail-below">
+      <h2>Budget-Wise Plan</h2>
+      <p class="placeholder-text">Low / Medium / High budget itinerary will load here once the Plan API is built.</p>
+    </section>
+     Places API -->
+    <!-- Popular Places -->
+    <!-- <section class="detail-below">
+      <h2>Popular Places</h2>
+      <div id="popular-places">
+        <p class="placeholder-text">Solang Valley</p>
+        <p class="placeholder-text">Rohtang Pass</p>
+        <p class="placeholder-text">Hadimba Temple</p>
+        <p class="placeholder-text">Old Manali</p>
+      </div> -->
+    <!-- </section>  -->
+    <!-- Local Food -->
+    <!-- <section class="detail-below">
+      <h2>Local Food</h2>
+      <p class="placeholder-text" id="local-food"> Siddu, Trout Fish and Momos </p>
+    </section>
+     Budget -->
+    <!-- <section class="detail-below">
+      <h2>Budget</h2>
+      <p class="placeholder-text" id="destination-budget"> ₹8,000 - ₹15,000 per person </p>
+    </section>  Travel -->
+    <!-- <section class="detail-below">
+      <h2>How To Reach</h2>
+      <p class="placeholder-text" id="travel-information"> Reach by bus or car from Delhi or Chandigarh. </p>
+    </section> Activities -->
+    <!-- <section class="detail-below">
+      <h2>Things To Do</h2>
+      <p class="placeholder-text" id="activities"> Paragliding, Skiing, River Rafting and Trekking </p>
+    </section> --> 
+  </main>
+
+  <p class="empty-state" id="empty-state" hidden>Couldn't load this destination.</p>
+
+  <script src="js/destination_detail.js"></script>
+  <script src="js/navbar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,925 @@
+[
+  {
+    "Destination": "Goa",
+    "region": "Goa",
+    "bestime": "November to February",
+    "spots": [
+      "Baga Beach",
+      "Calangute Beach",
+      "Fort Aguada",
+      "Dudhsagar Falls"
+    ],
+    "food": "Goan Fish Curry, Prawn Balchao, Bebinca",
+    "budget": "₹10,000 - ₹20,000 per person",
+    "travel": "Reach by flight to Goa International Airport or by train and bus.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Manali",
+    "region": "Himachal Pradesh",
+    "bestime": "March to June and October to February",
+    "spots": [
+      "Solang Valley",
+      "Rohtang Pass",
+      "Hadimba Temple",
+      "Old Manali"
+    ],
+    "food": "Siddu, Thukpa, Momos",
+    "budget": "₹8,000 - ₹16,000 per person",
+    "travel": "Reach by bus from Delhi or Chandigarh; the nearest airport is Bhuntar.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Shimla",
+    "region": "Himachal Pradesh",
+    "bestime": "March to June and December to February",
+    "spots": [
+      "Mall Road",
+      "The Ridge",
+      "Jakhoo Temple",
+      "Kufri"
+    ],
+    "food": "Chana Madra, Dham, Himachali Sidu",
+    "budget": "₹8,000 - ₹16,000 per person",
+    "travel": "Reach by train to Kalka followed by the toy train or by road from Chandigarh.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Dharamshala",
+    "region": "Himachal Pradesh",
+    "bestime": "March to June and September to November",
+    "spots": [
+      "McLeod Ganj",
+      "Namgyal Monastery",
+      "Bhagsu Waterfall",
+      "Triund"
+    ],
+    "food": "Tibetan Momos, Thukpa, Tingmo",
+    "budget": "₹7,000 - ₹14,000 per person",
+    "travel": "Reach Dharamshala by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Kasol",
+    "region": "Himachal Pradesh",
+    "bestime": "March to June and September to November",
+    "spots": [
+      "Parvati River",
+      "Manikaran Sahib",
+      "Tosh Village",
+      "Chalal Village"
+    ],
+    "food": "Momos, Thukpa, Israeli Cafés",
+    "budget": "₹6,000 - ₹12,000 per person",
+    "travel": "Reach Kasol by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Leh-Ladakh",
+    "region": "Ladakh",
+    "bestime": "May to September",
+    "spots": [
+      "Pangong Lake",
+      "Nubra Valley",
+      "Magnetic Hill",
+      "Shanti Stupa"
+    ],
+    "food": "Thukpa, Momos, Skyu",
+    "budget": "₹18,000 - ₹35,000 per person",
+    "travel": "Reach by flight to Kushok Bakula Rimpochee Airport or by road from Manali or Srinagar.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Srinagar",
+    "region": "Jammu and Kashmir",
+    "bestime": "March to October",
+    "spots": [
+      "Dal Lake",
+      "Mughal Gardens",
+      "Shalimar Bagh",
+      "Pari Mahal"
+    ],
+    "food": "Rogan Josh, Yakhni, Kahwa",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach by flight to Srinagar Airport or by road from Jammu.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Gulmarg",
+    "region": "Jammu and Kashmir",
+    "bestime": "December to March",
+    "spots": [
+      "Gulmarg Gondola",
+      "Apharwat Peak",
+      "Gulmarg Golf Course",
+      "Khilanmarg"
+    ],
+    "food": "Rogan Josh, Dum Aloo, Kahwa",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Gulmarg by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Pahalgam",
+    "region": "Jammu and Kashmir",
+    "bestime": "April to October",
+    "spots": [
+      "Betaab Valley",
+      "Aru Valley",
+      "Baisaran Valley",
+      "Lidder River"
+    ],
+    "food": "Rogan Josh, Kashmiri Pulao, Kahwa",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Pahalgam by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Rishikesh",
+    "region": "Uttarakhand",
+    "bestime": "September to November and February to May",
+    "spots": [
+      "Laxman Jhula",
+      "Ram Jhula",
+      "Triveni Ghat",
+      "Beatles Ashram"
+    ],
+    "food": "Aloo Puri, Garhwali Thali, Chole",
+    "budget": "₹6,000 - ₹13,000 per person",
+    "travel": "Reach Rishikesh by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Mussoorie",
+    "region": "Uttarakhand",
+    "bestime": "March to June and September to November",
+    "spots": [
+      "Mall Road",
+      "Kempty Falls",
+      "Lal Tibba",
+      "Gun Hill"
+    ],
+    "food": "Aloo ke Gutke, Bun Omelette, Garhwali Thali",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Mussoorie by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Nainital",
+    "region": "Uttarakhand",
+    "bestime": "March to June and September to November",
+    "spots": [
+      "Naini Lake",
+      "Naina Devi Temple",
+      "Snow View Point",
+      "Eco Cave Gardens"
+    ],
+    "food": "Bal Mithai, Aloo ke Gutke, Kumaoni Thali",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Nainital by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Auli",
+    "region": "Uttarakhand",
+    "bestime": "December to March",
+    "spots": [
+      "Auli Ski Resort",
+      "Auli Artificial Lake",
+      "Gurso Bugyal",
+      "Joshimath"
+    ],
+    "food": "Kumaoni Thali, Aloo ke Gutke, Momos",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Auli by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Kedarnath",
+    "region": "Uttarakhand",
+    "bestime": "May to October",
+    "spots": [
+      "Kedarnath Temple",
+      "Bhairavnath Temple",
+      "Chorabari Tal",
+      "Vasuki Tal"
+    ],
+    "food": "Simple North Indian Thali, Khichdi, Tea",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Kedarnath by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Jaipur",
+    "region": "Rajasthan",
+    "bestime": "October to March",
+    "spots": [
+      "Amber Fort",
+      "Hawa Mahal",
+      "City Palace",
+      "Jantar Mantar"
+    ],
+    "food": "Dal Baati Churma, Ghewar, Laal Maas",
+    "budget": "₹7,000 - ₹15,000 per person",
+    "travel": "Reach by flight to Jaipur International Airport or by train and bus.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Udaipur",
+    "region": "Rajasthan",
+    "bestime": "October to March",
+    "spots": [
+      "Lake Pichola",
+      "City Palace",
+      "Fateh Sagar Lake",
+      "Sajjangarh Palace"
+    ],
+    "food": "Dal Baati Churma, Gatte ki Sabzi, Ghewar",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Udaipur by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Jaisalmer",
+    "region": "Rajasthan",
+    "bestime": "October to March",
+    "spots": [
+      "Jaisalmer Fort",
+      "Sam Sand Dunes",
+      "Patwon Ki Haveli",
+      "Gadisar Lake"
+    ],
+    "food": "Ker Sangri, Dal Baati Churma, Ghotua Ladoo",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Jaisalmer by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Jodhpur",
+    "region": "Rajasthan",
+    "bestime": "October to March",
+    "spots": [
+      "Mehrangarh Fort",
+      "Jaswant Thada",
+      "Umaid Bhawan Palace",
+      "Clock Tower Market"
+    ],
+    "food": "Makhaniya Lassi, Mirchi Bada, Dal Baati Churma",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Jodhpur by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Pushkar",
+    "region": "Rajasthan",
+    "bestime": "October to March",
+    "spots": [
+      "Pushkar Lake",
+      "Brahma Temple",
+      "Savitri Temple",
+      "Pushkar Bazaar"
+    ],
+    "food": "Malpua, Kachori, Falafel",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Pushkar by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Mount Abu",
+    "region": "Rajasthan",
+    "bestime": "October to March",
+    "spots": [
+      "Nakki Lake",
+      "Dilwara Temples",
+      "Guru Shikhar",
+      "Sunset Point"
+    ],
+    "food": "Dal Baati Churma, Rabri, Gatte ki Sabzi",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Mount Abu by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Varanasi",
+    "region": "Uttar Pradesh",
+    "bestime": "October to March",
+    "spots": [
+      "Dashashwamedh Ghat",
+      "Kashi Vishwanath Temple",
+      "Assi Ghat",
+      "Sarnath"
+    ],
+    "food": "Kachori Sabzi, Banarasi Chaat, Malaiyo",
+    "budget": "₹6,000 - ₹13,000 per person",
+    "travel": "Reach by flight to Lal Bahadur Shastri Airport or by train.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Agra",
+    "region": "Uttar Pradesh",
+    "bestime": "October to March",
+    "spots": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Mehtab Bagh",
+      "Itmad-ud-Daulah"
+    ],
+    "food": "Petha, Mughlai Biryani, Bedai",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Agra by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Lucknow",
+    "region": "Uttar Pradesh",
+    "bestime": "October to March",
+    "spots": [
+      "Bara Imambara",
+      "Chota Imambara",
+      "Rumi Darwaza",
+      "Hazratganj"
+    ],
+    "food": "Galouti Kebab, Lucknowi Biryani, Basket Chaat",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Lucknow by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Mathura",
+    "region": "Uttar Pradesh",
+    "bestime": "October to March",
+    "spots": [
+      "Shri Krishna Janmabhoomi",
+      "Dwarkadhish Temple",
+      "Vishram Ghat",
+      "Kusum Sarovar"
+    ],
+    "food": "Peda, Kachori, Jalebi",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Mathura by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Delhi",
+    "region": "Delhi",
+    "bestime": "October to March",
+    "spots": [
+      "India Gate",
+      "Red Fort",
+      "Qutub Minar",
+      "Lotus Temple"
+    ],
+    "food": "Chole Bhature, Butter Chicken, Paranthas",
+    "budget": "₹7,000 - ₹16,000 per person",
+    "travel": "Reach by flight to Delhi Airport or by train, metro, and bus.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Mumbai",
+    "region": "Maharashtra",
+    "bestime": "October to February",
+    "spots": [
+      "Gateway of India",
+      "Marine Drive",
+      "Elephanta Caves",
+      "Chhatrapati Shivaji Terminus"
+    ],
+    "food": "Vada Pav, Pav Bhaji, Misal Pav",
+    "budget": "₹10,000 - ₹22,000 per person",
+    "travel": "Reach by flight to Mumbai Airport or by train and bus.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Pune",
+    "region": "Maharashtra",
+    "bestime": "October to February",
+    "spots": [
+      "Shaniwar Wada",
+      "Aga Khan Palace",
+      "Sinhagad Fort",
+      "Pataleshwar Cave Temple"
+    ],
+    "food": "Misal Pav, Bhakri, Mastani",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Pune by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Lonavala",
+    "region": "Maharashtra",
+    "bestime": "June to September",
+    "spots": [
+      "Tiger Point",
+      "Bhushi Dam",
+      "Rajmachi Fort",
+      "Karla Caves"
+    ],
+    "food": "Chikki, Vada Pav, Corn",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Lonavala by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Mahabaleshwar",
+    "region": "Maharashtra",
+    "bestime": "October to June",
+    "spots": [
+      "Venna Lake",
+      "Arthur's Seat",
+      "Pratapgad Fort",
+      "Mapro Garden"
+    ],
+    "food": "Strawberries, Puran Poli, Vada Pav",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Mahabaleshwar by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Ajanta and Ellora",
+    "region": "Maharashtra",
+    "bestime": "October to March",
+    "spots": [
+      "Ajanta Caves",
+      "Ellora Caves",
+      "Kailasa Temple",
+      "Bibi Ka Maqbara"
+    ],
+    "food": "Naan Qalia, Misal Pav, Puran Poli",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Ajanta and Ellora by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Munnar",
+    "region": "Kerala",
+    "bestime": "September to May",
+    "spots": [
+      "Tea Gardens",
+      "Mattupetty Dam",
+      "Eravikulam National Park",
+      "Top Station"
+    ],
+    "food": "Appam, Kerala Parotta, Puttu and Kadala Curry",
+    "budget": "₹9,000 - ₹18,000 per person",
+    "travel": "Reach by road from Kochi; the nearest airport is Cochin International Airport.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Alleppey",
+    "region": "Kerala",
+    "bestime": "November to February",
+    "spots": [
+      "Alleppey Backwaters",
+      "Alleppey Beach",
+      "Vembanad Lake",
+      "Marari Beach"
+    ],
+    "food": "Kerala Sadya, Appam, Karimeen Pollichathu",
+    "budget": "₹9,000 - ₹18,000 per person",
+    "travel": "Reach by train to Alappuzha or by road from Kochi.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Kochi",
+    "region": "Kerala",
+    "bestime": "October to March",
+    "spots": [
+      "Fort Kochi",
+      "Chinese Fishing Nets",
+      "Mattancherry Palace",
+      "Marine Drive"
+    ],
+    "food": "Appam and Stew, Fish Moilee, Prawn Curry",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Kochi by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Wayanad",
+    "region": "Kerala",
+    "bestime": "October to May",
+    "spots": [
+      "Edakkal Caves",
+      "Soochipara Falls",
+      "Banasura Sagar Dam",
+      "Chembra Peak"
+    ],
+    "food": "Malabar Biryani, Puttu, Bamboo Rice",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Wayanad by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Kovalam",
+    "region": "Kerala",
+    "bestime": "November to February",
+    "spots": [
+      "Lighthouse Beach",
+      "Hawa Beach",
+      "Samudra Beach",
+      "Vizhinjam Harbor"
+    ],
+    "food": "Kerala Sadya, Fish Curry, Appam",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Kovalam by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Ooty",
+    "region": "Tamil Nadu",
+    "bestime": "April to June and September to November",
+    "spots": [
+      "Ooty Lake",
+      "Botanical Garden",
+      "Doddabetta Peak",
+      "Nilgiri Mountain Railway"
+    ],
+    "food": "Ooty Varkey, Homemade Chocolate, South Indian Meals",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Ooty by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Kodaikanal",
+    "region": "Tamil Nadu",
+    "bestime": "April to June and September to October",
+    "spots": [
+      "Kodaikanal Lake",
+      "Coaker's Walk",
+      "Bryant Park",
+      "Pillar Rocks"
+    ],
+    "food": "Homemade Chocolates, South Indian Meals, Parotta",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Kodaikanal by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Chennai",
+    "region": "Tamil Nadu",
+    "bestime": "November to February",
+    "spots": [
+      "Marina Beach",
+      "Kapaleeshwarar Temple",
+      "Fort St. George",
+      "San Thome Basilica"
+    ],
+    "food": "Dosa, Idli, Chettinad Chicken",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Chennai by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Madurai",
+    "region": "Tamil Nadu",
+    "bestime": "October to March",
+    "spots": [
+      "Meenakshi Temple",
+      "Thirumalai Nayakkar Palace",
+      "Gandhi Memorial Museum",
+      "Vandiyur Mariamman Teppakulam"
+    ],
+    "food": "Jigarthanda, Parotta, Kari Dosa",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Madurai by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Pondicherry",
+    "region": "Puducherry",
+    "bestime": "October to March",
+    "spots": [
+      "Promenade Beach",
+      "French Quarter",
+      "Aurobindo Ashram",
+      "Paradise Beach"
+    ],
+    "food": "French Pastries, Crepes, Seafood Curry",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Pondicherry by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Bengaluru",
+    "region": "Karnataka",
+    "bestime": "October to February",
+    "spots": [
+      "Lalbagh Botanical Garden",
+      "Cubbon Park",
+      "Bangalore Palace",
+      "Vidhana Soudha"
+    ],
+    "food": "Masala Dosa, Bisi Bele Bath, Filter Coffee",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Bengaluru by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Coorg",
+    "region": "Karnataka",
+    "bestime": "October to March",
+    "spots": [
+      "Abbey Falls",
+      "Raja's Seat",
+      "Dubare Elephant Camp",
+      "Talakaveri"
+    ],
+    "food": "Pandi Curry, Kadambuttu, Bamboo Shoot Curry",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Coorg by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Hampi",
+    "region": "Karnataka",
+    "bestime": "October to February",
+    "spots": [
+      "Virupaksha Temple",
+      "Vittala Temple",
+      "Hampi Bazaar",
+      "Matanga Hill"
+    ],
+    "food": "South Indian Thali, Dosa, Jolada Rotti",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Hampi by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Mysore",
+    "region": "Karnataka",
+    "bestime": "October to February",
+    "spots": [
+      "Mysore Palace",
+      "Chamundi Hill",
+      "Brindavan Gardens",
+      "Mysore Zoo"
+    ],
+    "food": "Mysore Pak, Mysore Masala Dosa, Idli",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Mysore by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Hyderabad",
+    "region": "Telangana",
+    "bestime": "October to February",
+    "spots": [
+      "Charminar",
+      "Golconda Fort",
+      "Hussain Sagar Lake",
+      "Salar Jung Museum"
+    ],
+    "food": "Hyderabadi Biryani, Haleem, Qubani ka Meetha",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Hyderabad by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Darjeeling",
+    "region": "West Bengal",
+    "bestime": "March to May and October to December",
+    "spots": [
+      "Tiger Hill",
+      "Batasia Loop",
+      "Darjeeling Himalayan Railway",
+      "Peace Pagoda"
+    ],
+    "food": "Momos, Thukpa, Darjeeling Tea",
+    "budget": "₹9,000 - ₹18,000 per person",
+    "travel": "Reach Darjeeling by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Kolkata",
+    "region": "West Bengal",
+    "bestime": "October to March",
+    "spots": [
+      "Victoria Memorial",
+      "Howrah Bridge",
+      "Indian Museum",
+      "St. Paul's Cathedral"
+    ],
+    "food": "Kathi Roll, Rosogolla, Mishti Doi",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Kolkata by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Gangtok",
+    "region": "Sikkim",
+    "bestime": "March to May and October to December",
+    "spots": [
+      "MG Marg",
+      "Tsomgo Lake",
+      "Rumtek Monastery",
+      "Nathu La Pass"
+    ],
+    "food": "Momos, Thukpa, Phagshapa",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Gangtok by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Shillong",
+    "region": "Meghalaya",
+    "bestime": "October to April",
+    "spots": [
+      "Umiam Lake",
+      "Elephant Falls",
+      "Shillong Peak",
+      "Ward's Lake"
+    ],
+    "food": "Jadoh, Tungrymbai, Momos",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Shillong by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Cherrapunji",
+    "region": "Meghalaya",
+    "bestime": "October to May",
+    "spots": [
+      "Nohkalikai Falls",
+      "Seven Sisters Falls",
+      "Mawsmai Cave",
+      "Living Root Bridge"
+    ],
+    "food": "Jadoh, Smoked Meat, Rice Beer",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Cherrapunji by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Andaman Islands",
+    "region": "Andaman and Nicobar Islands",
+    "bestime": "October to May",
+    "spots": [
+      "Radhanagar Beach",
+      "Cellular Jail",
+      "Elephant Beach",
+      "Ross Island"
+    ],
+    "food": "Seafood Curry, Grilled Fish, Coconut Prawn Curry",
+    "budget": "₹20,000 - ₹40,000 per person",
+    "travel": "Reach by flight to Veer Savarkar International Airport or by ship from mainland India.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Lakshadweep",
+    "region": "Lakshadweep",
+    "bestime": "October to March",
+    "spots": [
+      "Agatti Island",
+      "Bangaram Island",
+      "Kavaratti Island",
+      "Minicoy Island"
+    ],
+    "food": "Tuna Curry, Coconut Rice, Seafood",
+    "budget": "₹25,000 - ₹50,000 per person",
+    "travel": "Reach by flight or ship from Kochi.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Bodh Gaya",
+    "region": "Bihar",
+    "bestime": "October to March",
+    "spots": [
+      "Mahabodhi Temple",
+      "Great Buddha Statue",
+      "Thai Monastery",
+      "Sujata Garh"
+    ],
+    "food": "Litti Chokha, Sattu Sharbat, Khaja",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach by flight to Gaya Airport or by train and road.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Patna",
+    "region": "Bihar",
+    "bestime": "October to March",
+    "spots": [
+      "Golghar",
+      "Bihar Museum",
+      "Patna Sahib Gurudwara",
+      "Gandhi Ghat"
+    ],
+    "food": "Litti Chokha, Sattu Paratha, Khaja",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach by flight to Jay Prakash Narayan Airport or by train.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Puri",
+    "region": "Odisha",
+    "bestime": "October to February",
+    "spots": [
+      "Jagannath Temple",
+      "Puri Beach",
+      "Swargadwar Beach",
+      "Raghurajpur Village"
+    ],
+    "food": "Mahaprasad, Chhena Poda, Dalma",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Puri by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Bhubaneswar",
+    "region": "Odisha",
+    "bestime": "October to March",
+    "spots": [
+      "Lingaraj Temple",
+      "Udayagiri Caves",
+      "Dhauli Shanti Stupa",
+      "Mukteshwar Temple"
+    ],
+    "food": "Dalma, Pakhala Bhata, Chhena Poda",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Bhubaneswar by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Amritsar",
+    "region": "Punjab",
+    "bestime": "October to March",
+    "spots": [
+      "Golden Temple",
+      "Jallianwala Bagh",
+      "Wagah Border",
+      "Partition Museum"
+    ],
+    "food": "Amritsari Kulcha, Chole, Lassi",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Amritsar by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Chandigarh",
+    "region": "Chandigarh",
+    "bestime": "October to March",
+    "spots": [
+      "Rock Garden",
+      "Sukhna Lake",
+      "Rose Garden",
+      "Capitol Complex"
+    ],
+    "food": "Butter Chicken, Chole Bhature, Amritsari Kulcha",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Chandigarh by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Ahmedabad",
+    "region": "Gujarat",
+    "bestime": "October to March",
+    "spots": [
+      "Sabarmati Ashram",
+      "Kankaria Lake",
+      "Adalaj Stepwell",
+      "Sidi Saiyyed Mosque"
+    ],
+    "food": "Dhokla, Fafda-Jalebi, Gujarati Thali",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Ahmedabad by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {
+    "Destination": "Rann of Kutch",
+    "region": "Gujarat",
+    "bestime": "November to February",
+    "spots": [
+      "White Rann",
+      "Kalo Dungar",
+      "India Bridge",
+      "Hodka Village"
+    ],
+    "food": "Kutchi Dabeli, Bajra Rotla, Gujarati Thali",
+    "budget": "₹8,000 - ₹18,000 per person",
+    "travel": "Reach Rann of Kutch by the nearest airport, railway station, or by road from major nearby cities.",
+    "activities": "Sightseeing, Local Food, Photography, Shopping, Exploring Nearby Attractions"
+  },
+  {"Destination":"Dwarka","Region":"Gujarat","bestTimeToVisit":"October to March","spots":["Dwarkadhish Temple","Bet Dwarka","Rukmini Devi Temple","Dwarka Beach"],"food":"Gujarati Thali, Fafda-Jalebi, Thepla","budget":"₹6,000 - ₹12,000 per person","travel":"Reach by train or road; the nearest airport is Jamnagar Airport.","activities":"Temple Visits, Spiritual Tourism, Beach Walks, Heritage Exploration"},
+    {"Destination":"Somnath","Region":"Gujarat","bestTimeToVisit":"October to March","spots":["Somnath Temple","Triveni Sangam","Bhalka Tirth","Somnath Beach"],"food":"Gujarati Thali, Khichdi, Fafda-Jalebi","budget":"₹6,000 - ₹12,000 per person","travel":"Reach by train or road; the nearest airport is Diu Airport.","activities":"Temple Visits, Spiritual Tourism, Seaside Walks, Sightseeing"},
+    {"Destination":"Nashik","Region":"Maharashtra","bestTimeToVisit":"October to February","spots":["Trimbakeshwar Temple","Sula Vineyards","Panchavati","Pandavleni Caves"],"food":"Misal Pav, Vada Pav, Sabudana Khichdi","budget":"₹5,000 - ₹12,000 per person","travel":"Reach by train, bus, or flight to Nashik Airport.","activities":"Temple Visits, Vineyard Tours, Cave Exploration, Riverfront Walks"},
+    {"Destination":"Ranthambore","Region":"Rajasthan","bestTimeToVisit":"October to June","spots":["Ranthambore National Park","Ranthambore Fort","Padam Lake","Surwal Lake"],"food":"Dal Baati Churma, Laal Maas, Gatte Ki Sabzi","budget":"₹10,000 - ₹22,000 per person","travel":"Reach by train to Sawai Madhopur or by road from Jaipur.","activities":"Wildlife Safari, Birdwatching, Fort Visits, Nature Photography"},
+    {"Destination":"Jim Corbett","Region":"Uttarakhand","bestTimeToVisit":"November to June","spots":["Corbett National Park","Dhikala Zone","Garjiya Devi Temple","Corbett Waterfall"],"food":"Kumaoni Thali, Bhatt Ki Churkani, Aloo Ke Gutke","budget":"₹10,000 - ₹25,000 per person","travel":"Reach by train to Ramnagar or by road from Delhi.","activities":"Jungle Safari, Birdwatching, Nature Walks, Wildlife Photography"},
+    {"Destination":"Sundarbans","Region":"West Bengal","bestTimeToVisit":"October to March","spots":["Sundarbans National Park","Sajnekhali Watchtower","Sudhanyakhali Watchtower","Dobanki Canopy Walk"],"food":"Bengali Fish Curry, Prawn Malai Curry, Mishti Doi","budget":"₹8,000 - ₹18,000 per person","travel":"Reach by train or road to Godhkhali, followed by a boat ride.","activities":"Boat Safari, Wildlife Watching, Mangrove Exploration, Birdwatching"},
+    {"Destination":"Kaziranga","Region":"Assam","bestTimeToVisit":"November to April","spots":["Kaziranga National Park","Kohora Range","Bagori Range","Orang National Park"],"food":"Assamese Thali, Khar, Masor Tenga","budget":"₹8,000 - ₹18,000 per person","travel":"Reach by flight to Jorhat or Guwahati, followed by road travel.","activities":"Jeep Safari, Elephant Safari, Birdwatching, Wildlife Photography"},
+    {"Destination":"Tawang","Region":"Arunachal Pradesh","bestTimeToVisit":"April to June and September to October","spots":["Tawang Monastery","Sela Pass","Bum La Pass","Madhuri Lake"],"food":"Thukpa, Momos, Zan","budget":"₹15,000 - ₹30,000 per person","travel":"Reach by road from Tezpur or Guwahati; permits are required.","activities":"Monastery Visits, Mountain Sightseeing, Snow Activities, Trekking"},
+    {"Destination":"Ziro Valley","Region":"Arunachal Pradesh","bestTimeToVisit":"March to October","spots":["Ziro Valley","Talley Valley Wildlife Sanctuary","Shiva Linga","Hapoli"],"food":"Apong, Bamboo Shoot Dishes, Smoked Meat","budget":"₹12,000 - ₹25,000 per person","travel":"Reach by road from Itanagar or Naharlagun.","activities":"Nature Walks, Cultural Tours, Trekking, Photography"},
+    {"Destination":"Diu","Region":"Daman and Diu","bestTimeToVisit":"October to March","spots":["Diu Fort","Nagoa Beach","St. Paul's Church","Naida Caves"],"food":"Seafood, Gujarati Thali, Portuguese-Inspired Dishes","budget":"₹6,000 - ₹14,000 per person","travel":"Reach by road or train to Veraval; the nearest airport is Diu Airport.","activities":"Beach Activities, Fort Visits, Cycling, Water Sports"},
+    {"Destination":"Mahabalipuram","Region":"Tamil Nadu","bestTimeToVisit":"October to March","spots":["Shore Temple","Pancha Rathas","Arjuna's Penance","Mahabalipuram Beach"],"food":"South Indian Meals, Idli, Dosa, Seafood","budget":"₹5,000 - ₹12,000 per person","travel":"Reach by road from Chennai; the nearest airport is Chennai International Airport.","activities":"Temple Visits, Heritage Walks, Beach Visits, Photography"},
+    {"Destination":"Rameswaram","Region":"Tamil Nadu","bestTimeToVisit":"October to April","spots":["Ramanathaswamy Temple","Pamban Bridge","Dhanushkodi","Agni Theertham"],"food":"South Indian Meals, Idli, Dosa, Seafood","budget":"₹6,000 - ₹14,000 per person","travel":"Reach by train or road; the nearest airport is Madurai Airport.","activities":"Temple Visits, Pilgrimage, Beach Visits, Heritage Exploration"},
+    {"Destination":"Visakhapatnam","Region":"Andhra Pradesh","bestTimeToVisit":"October to March","spots":["RK Beach","Kailasagiri","Borra Caves","Submarine Museum"],"food":"Andhra Meals, Pulihora, Seafood","budget":"₹6,000 - ₹14,000 per person","travel":"Reach by flight, train, or road; Visakhapatnam has its own airport.","activities":"Beach Visits, Hill Sightseeing, Cave Exploration, Museum Visits"},
+    {"Destination":"Bikaner","Region":"Rajasthan","bestTimeToVisit":"October to March","spots":["Junagarh Fort","Karni Mata Temple","Lalgarh Palace","National Research Centre on Camel"],"food":"Bikaneri Bhujia, Dal Baati Churma, Ghewar","budget":"₹7,000 - ₹15,000 per person","travel":"Reach by train, bus, or flight to Bikaner Airport.","activities":"Fort Visits, Camel Rides, Heritage Walks, Local Food Tours"},
+    {"Destination":"Orchha","Region":"Madhya Pradesh","bestTimeToVisit":"October to March","spots":["Orchha Fort","Ram Raja Temple","Jahangir Mahal","Chaturbhuj Temple"],"food":"Poha, Dal Bafla, Bundeli Cuisine","budget":"₹5,000 - ₹12,000 per person","travel":"Reach by train to Jhansi, followed by road travel.","activities":"Heritage Walks, Temple Visits, Photography, Riverside Walks"},
+    {"Destination":"Khajuraho","Region":"Madhya Pradesh","bestTimeToVisit":"October to March","spots":["Khajuraho Group of Monuments","Kandariya Mahadeva Temple","Lakshmana Temple","Raneh Falls"],"food":"Poha, Dal Bafla, Bundeli Cuisine","budget":"₹6,000 - ₹14,000 per person","travel":"Reach by flight to Khajuraho Airport or by train and road.","activities":"Temple Visits, Heritage Tours, Light and Sound Show, Photography"},
+    {"Destination":"Pachmarhi","Region":"Madhya Pradesh","bestTimeToVisit":"October to June","spots":["Bee Falls","Jata Shankar Caves","Dhoopgarh","Pandav Caves"],"food":"Poha, Dal Bafla, Bhutte Ka Kees","budget":"₹5,000 - ₹12,000 per person","travel":"Reach by road from Pipariya railway station.","activities":"Trekking, Waterfall Visits, Cave Exploration, Nature Walks"},
+    {"Destination":"Sanchi","Region":"Madhya Pradesh","bestTimeToVisit":"October to March","spots":["Sanchi Stupa","Great Stupa","Ashoka Pillar","Sanchi Museum"],"food":"Poha, Dal Bafla, Bhutte Ka Kees","budget":"₹4,000 - ₹10,000 per person","travel":"Reach by train to Sanchi or Bhopal, followed by road travel.","activities":"Heritage Tours, Buddhist Site Visits, Museum Visits, Photography"},
+    {"Destination":"Rajgir","Region":"Bihar","bestTimeToVisit":"October to March","spots":["Vishwa Shanti Stupa","Griddhakuta Hill","Rajgir Hot Springs","Cyclopean Wall"],"food":"Litti Chokha, Khaja, Sattu Paratha","budget":"₹4,000 - ₹10,000 per person","travel":"Reach by train or road from Patna or Gaya.","activities":"Spiritual Tourism, Ropeway Ride, Historical Tours, Nature Walks"},
+    {"Destination":"Nalanda","Region":"Bihar","bestTimeToVisit":"October to March","spots":["Nalanda University Ruins","Nalanda Archaeological Museum","Xuanzang Memorial","Hiuen Tsang Memorial Hall"],"food":"Litti Chokha, Khaja, Sattu Paratha","budget":"₹4,000 - ₹9,000 per person","travel":"Reach by road or train to nearby Rajgir, followed by local transport.","activities":"Heritage Tours, Buddhist History, Museum Visits, Photography"},
+    {"Destination":"Mcleodganj","Region":"Himachal Pradesh","bestTimeToVisit":"March to June and September to November","spots":["Tsuglagkhang Complex","Namgyal Monastery","Bhagsu Waterfall","Triund"],"food":"Tibetan Momos, Thukpa, Tingmo","budget":"₹7,000 - ₹15,000 per person","travel":"Reach by road from Dharamshala; the nearest airport is Kangra Airport.","activities":"Monastery Visits, Trekking, Café Hopping, Cultural Tours"},
+    {"Destination":"Kanyakumari","Region":"Tamil Nadu","bestTimeToVisit":"October to March","spots":["Vivekananda Rock Memorial","Thiruvalluvar Statue","Kanyakumari Beach","Kumari Amman Temple"],"food":"South Indian Meals, Appam, Seafood","budget":"₹6,000 - ₹14,000 per person","travel":"Reach by train, road, or flight to nearby Thiruvananthapuram Airport.","activities":"Sunrise Viewing, Temple Visits, Boat Rides, Beach Walks"}
+
+]
