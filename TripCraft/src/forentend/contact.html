@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us -- TripCraft</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@200..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">TripCraft</div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="destinations.html" id="destlink">Destinations</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+    <div class="nav-auth" id="nav-auth">
+      <a href="signup.html">Log in</a>
+      <a href="signup.html" class="btn-signup">Sign up</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="contact-hero">
+    <div class="contact-hero-inner">
+      <p class="contact-eyebrow">Get in touch</p>
+      <h1>We'd love to hear from you.</h1>
+      <p class="contact-hero-sub">Found a mistake in a destination? Want to suggest a new place? Just have a question? Send us a message and we'll get back to you.</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="contact-main">
+
+    <!-- Form -->
+    <div class="contact-form-wrap">
+      <h2>Send us a message</h2>
+
+      <form id="contactform">
+
+        <div class="form-field">
+          <label for="contactname">Your name</label>
+          <input type="text" id="contactname" placeholder="Varad Gore" required>
+        </div>
+
+        <div class="form-field">
+          <label for="contactemail">Email address</label>
+          <input type="email" id="contactemail" placeholder="varadgore@gmail.com" required>
+        </div>
+
+        <div class="form-field">
+          <label for="contactsubject">Subject</label>
+          <select id="contactsubject">
+            <option value="General question">General question</option>
+            <option value="Suggest a destination">Suggest a destination</option>
+            <option value="Report a mistake">Report a mistake</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="contactmessage">Message</label>
+          <textarea id="contactmessage" rows="6" placeholder="Tell us what's on your mind..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitbtn">Send message</button>
+
+        <p class="form-success" id="successmsg" hidden>
+          Message sent — we'll get back to you within 24 hours.
+        </p>
+        <p class="form-error" id="errormsg" hidden>
+          Something went wrong. Please try again.
+        </p>
+
+      </form>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="contact-info">
+
+      <div class="info-block">
+        <h3>Response time</h3>
+        <p>We typically reply within 24–48 hours on weekdays.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Suggest a destination</h3>
+        <p>Know a great place in India that isn't on TripCraft yet? Tell us and we'll research and add it.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Report an error</h3>
+        <p>If a budget estimate, place name, or travel detail is wrong, let us know — accuracy matters to us.</p>
+      </div>
+
+      <div class="info-block">
+        <h3>Email us directly</h3>
+        <p><a href="mailto:varadgore72@gmail.com">hello@tripcraft.in</a></p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 TripCraft — Built for Indian travellers</p>
+  </footer>
+
+  <script src="js/contact.js"></script>
+  <script src="js/navbar.js"></script>
+</body>
+</html>

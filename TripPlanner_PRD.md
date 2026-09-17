@@ -69,9 +69,9 @@ The platform has three user roles: **Visitor/User**, **Admin** (who manages dest
 ### Public-Facing Pages
 | # | Page | Purpose |
 |---|---|---|
-| 1 | **Home Page** | Hero search bar, featured destinations, how-it-works section |
-| 2 | **All Destinations Page** | Full list/grid of all destinations with filter (region, budget range, tags like "hill station", "beach", "heritage") |
-| 3 | **Destination Detail Page** | Overview, popular places list, best time to visit, budget tier tabs |
+| 1 | **Home Page** | Hero search bar, featured destinations, how-it-works section | DDD
+| 2 | **All Destinations Page** | Full list/grid of all destinations with filter (region, budget range, tags like "hill station", "beach", "heritage") | DDD
+| 3 | **Destination Detail Page** | Overview, popular places list, best time to visit, budget tier tabs |DDD
 | 4 | **Generated Plan Page** | Day-wise itinerary, cost breakdown table, "Save this Plan" button |
 | 5 | **Place Detail Page** (optional, can be a modal) | Single attraction's details — description, entry fee, timings, images |
 | 6 | **About Us Page** | What the platform does |

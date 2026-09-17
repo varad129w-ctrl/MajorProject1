@@ -6,7 +6,7 @@ const navAuth = document.getElementById("nav-auth");
 if (token && userString) {
   const user = JSON.parse(userString);
   navAuth.innerHTML = `
-    <span>${user.name}</span>
+    <span><a href= "home.html" >${user.name}</a></span>
     <a href="#" id="logoutbtn">Log Out</a>
   `;
   document.getElementById("logoutbtn").addEventListener("click", () => {
