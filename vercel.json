@@ -2,20 +2,5 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "buildCommand": "echo 'No build required'",
-  "outputDirectory": "public",
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/home.html"
-    },
-    {
-      "source": "/index.html",
-      "destination": "/home.html"
-    },
-    {
-      "source": "/TripCraft/src/forentend/:match*",
-      "destination": "/:match*"
-    }
-  ]
+  "outputDirectory": "public"
 }
