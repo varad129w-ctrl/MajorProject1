@@ -13,7 +13,8 @@ import form from "./routes/contact.js"
 const app = express();
 app.use(express.json());
 app.use(cors());
-mongoose.connect("mongodb://localhost:27017/DestinationDeatils")
+const mongoUri = process.env.MONGO_URI || "mongodb://localhost:27017/DestinationDeatils";
+mongoose.connect(mongoUri)
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log("MongoDB error:", err));
 

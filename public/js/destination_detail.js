@@ -1,6 +1,7 @@
 const params = new URLSearchParams(window.location.search); //! very important this is for finding queries from url and getting ID
 const id = params.get("id"); //this will get id from params
-const APIBASE = `http://localhost:3000/api/destinations/${id}`
+const API_BASE = window.location.origin.includes("127.0.0.1:5500") ? "http://localhost:3000" : "";
+const APIBASE = `${API_BASE}/api/destinations/${id}`;
 
 
 document.getElementById("destinationsLogged")
@@ -9,7 +10,7 @@ async function carddetails() {
     let apidata = await fetch(APIBASE);
     let dest = await apidata.json(); // single object, not an array therefore also no need of foreach loop!
     console.log(dest.Destination);
-    let placesresponse = await fetch(`http://localhost:3000/api/places/${dest.Destination}`);
+    let placesresponse = await fetch(`${API_BASE}/api/places/${encodeURIComponent(dest.Destination)}`);
     let data = await placesresponse.json();
     console.log(data);
     let card = document.getElementById("detail-container");

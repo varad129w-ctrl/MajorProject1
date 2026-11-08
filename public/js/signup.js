@@ -22,7 +22,8 @@ document.getElementById("signupform").addEventListener("submit", async (e) => {
   const email = document.getElementById("signupemail").value;
   const password = document.getElementById("signuppassword").value;
 
-  const response = await fetch('http://localhost:3000/api/auth/signup', {
+  const API_BASE = window.location.origin.includes("127.0.0.1:5500") ? "http://localhost:3000" : "";
+  const response = await fetch(`${API_BASE}/api/auth/signup`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name, email, password })
@@ -46,7 +47,8 @@ document.getElementById("loginform").addEventListener("submit", async (e) => {
   const email = document.getElementById("loginemail").value;
   const password = document.getElementById("loginpassword").value;
 
-  const response = await fetch('http://localhost:3000/api/auth/login', {
+  const API_BASE = window.location.origin.includes("127.0.0.1:5500") ? "http://localhost:3000" : "";
+  const response = await fetch(`${API_BASE}/api/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password })

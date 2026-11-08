@@ -1,17 +1,17 @@
 document.getElementById("quickbtn1").addEventListener("click", () => {
-    window.location.href = "http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=6a9cf3a6921e69a617c8e118"
+    window.location.href = "destination_detail.html?id=6a9cf3a6921e69a617c8e118"
 })
 document.getElementById("quickbtn2").addEventListener("click", () => {
-    window.location.href = "http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=6a9cf3a6921e69a617c8e119"
+    window.location.href = "destination_detail.html?id=6a9cf3a6921e69a617c8e119"
 })
 document.getElementById("quickbtn3").addEventListener("click", () => {
-    window.location.href = "http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=6a9bf6a3921e69a617c8e0e8"
+    window.location.href = "destination_detail.html?id=6a9bf6a3921e69a617c8e0e8"
 })
 document.getElementById("quickbtn4").addEventListener("click", () => {
-    window.location.href = "http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=6a9bf6a3921e69a617c8e0e9"
+    window.location.href = "destination_detail.html?id=6a9bf6a3921e69a617c8e0e9"
 })
 document.getElementById("quickbtn5").addEventListener("click", () => {
-    window.location.href = "http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=6a9bf6a3921e69a617c8e0f0"
+    window.location.href = "destination_detail.html?id=6a9bf6a3921e69a617c8e0f0"
 })
 let searchbar = document.getElementById("searchdropdown");
 
@@ -37,7 +37,8 @@ document.getElementById("destination-search").addEventListener("input", (e) => {
 let list = document.getElementById("searchdropdown");
 let containerlist = document.getElementById("searchdropdown").firstElementChild
 async function fetchSuggestions(query) {
-    let data = await fetch(`http://localhost:3000/api/suggestions/${query}`);
+    const API_BASE = window.location.origin.includes("127.0.0.1:5500") ? "http://localhost:3000" : "";
+    let data = await fetch(`${API_BASE}/api/suggestions/${encodeURIComponent(query)}`);
     let apidata = await data.json();
     list.innerHTML = ``;
     if (apidata.length === 0) {
@@ -53,13 +54,13 @@ async function fetchSuggestions(query) {
         div.innerHTML = element.Destination;
         list.prepend(div);
         list.addEventListener("click", () => {
-            window.location.href = `http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=${div.dataset.id}`;
+            window.location.href = `destination_detail.html?id=${div.dataset.id}`;
         })
         document.getElementById("destination-search").addEventListener("keydown", (a) => {
             if (a.key == "Enter") {
                 const firstlist = list.firstElementChild
                 const id = firstlist.dataset.id;
-                window.location.href = `http://127.0.0.1:5500/TripCraft/src/forentend/destination_detail.html?id=${id}`;
+                window.location.href = `destination_detail.html?id=${id}`;
             }
         })
     });

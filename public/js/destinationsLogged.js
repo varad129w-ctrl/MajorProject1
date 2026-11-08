@@ -2,7 +2,8 @@ const user = JSON.parse(localStorage.getItem("user"));
 console.log(localStorage.getItem("user"));
 console.log(localStorage.getItem("token"));
 
-const API = "http://localhost:3000/api/destinations";
+const API_BASE = window.location.origin.includes("127.0.0.1:5500") ? "http://localhost:3000" : "";
+const API = `${API_BASE}/api/destinations`;
 
 async function CardLoader() {
   try {
